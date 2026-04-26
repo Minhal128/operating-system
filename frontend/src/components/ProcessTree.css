@@ -1,0 +1,58 @@
+.process-tree {
+  max-height: 400px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.process-node {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.8rem;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 8px;
+  border-left: 3px solid #4a9eff;
+  transition: all 0.3s;
+}
+
+.process-node.suspicious {
+  border-left-color: #ff4a4a;
+  background: rgba(255, 74, 74, 0.1);
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.7; }
+}
+
+.process-icon {
+  font-size: 1.5rem;
+}
+
+.process-info {
+  flex: 1;
+}
+
+.process-name {
+  font-weight: 600;
+  color: #fff;
+}
+
+.process-pid {
+  font-size: 0.85rem;
+  color: #8b92b0;
+}
+
+.warning-badge {
+  font-size: 1.2rem;
+}
+
+.more-processes {
+  text-align: center;
+  padding: 0.5rem;
+  color: #8b92b0;
+  font-style: italic;
+}

@@ -1,0 +1,136 @@
+.app {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0a0e27 0%, #1a1f3a 100%);
+}
+
+.header {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  padding: 1.5rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.header h1 {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.mode-selector {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.status-indicator {
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.status-indicator.connected {
+  background: rgba(74, 255, 74, 0.2);
+  color: #4aff4a;
+  border: 1px solid #4aff4a;
+}
+
+.status-indicator.disconnected {
+  background: rgba(255, 74, 74, 0.2);
+  color: #ff4a4a;
+  border: 1px solid #ff4a4a;
+}
+
+.mode-badge {
+  padding: 0.6rem 1.5rem;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.mode-badge.normal {
+  background: rgba(74, 158, 255, 0.2);
+  color: #4a9eff;
+  border: 2px solid #4a9eff;
+}
+
+.mode-badge.attack {
+  background: rgba(255, 74, 74, 0.2);
+  color: #ff4a4a;
+  border: 2px solid #ff4a4a;
+  animation: pulse 2s infinite;
+}
+
+.metrics-bar {
+  display: flex;
+  gap: 1rem;
+  padding: 1.5rem 2rem;
+  background: rgba(0, 0, 0, 0.3);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.metric {
+  flex: 1;
+  background: rgba(255, 255, 255, 0.05);
+  padding: 1rem;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.metric .label {
+  font-size: 0.85rem;
+  color: #8b92b0;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.metric .value {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #4a9eff;
+}
+
+.dashboard {
+  padding: 2rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 1.5rem;
+}
+
+.panel {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 1.5rem;
+  min-height: 300px;
+}
+
+.panel.large {
+  grid-column: span 2;
+}
+
+.panel h2 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: #fff;
+  border-bottom: 2px solid #4a9eff;
+  padding-bottom: 0.5rem;
+}
+
+@media (max-width: 1200px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .panel.large {
+    grid-column: span 1;
+  }
+}

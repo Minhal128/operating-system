@@ -1,0 +1,621 @@
+[2026-04-26 02:50:44] ========================================
+[2026-04-26 02:50:44]   EDR SYSTEM - BACKEND API SERVER
+[2026-04-26 02:50:44]   Real-Time Intrusion Detection
+[2026-04-26 02:50:44] ========================================
+[2026-04-26 02:50:44] 
+[2026-04-26 02:50:44] [INIT] Starting EDR System...
+[2026-04-26 02:50:44] [OK] Monitor initialized
+[2026-04-26 02:50:44] [OK] Attack simulator ready
+[2026-04-26 02:50:44] [INFO] Metrics file: ../frontend/public/api/metrics.json
+[2026-04-26 02:50:44] [INFO] Dashboard: http://localhost:3000
+[2026-04-26 02:50:44] [INFO] Log file: edr_backend.log
+[2026-04-26 02:50:44] 
+[2026-04-26 02:50:44] [MODE] Starting in NORMAL mode
+[2026-04-26 02:50:44] [RUN] Backend is RUNNING - Collecting metrics every second
+[2026-04-26 02:50:44] ========================================
+[2026-04-26 02:50:44] 
+[2026-04-26 02:50:44] [OK] First metrics export completed!
+[2026-04-26 02:50:44] [INFO] Dashboard should now display live data
+[2026-04-26 02:50:44] 
+[2026-04-26 02:50:44] [TICK 0s] Proc:0 | Mem:0KB | Files:0 | IPC:0 | Mode:NORMAL
+[2026-04-26 02:50:49] [TICK 5s] Proc:0 | Mem:0KB | Files:0 | IPC:0 | Mode:NORMAL
+[2026-04-26 02:50:54] [TICK 10s] Proc:0 | Mem:0KB | Files:0 | IPC:0 | Mode:NORMAL
+[2026-04-26 02:50:59] [TICK 15s] Proc:0 | Mem:0KB | Files:0 | IPC:0 | Mode:NORMAL
+[2026-04-26 02:51:04] [TICK 20s] Proc:0 | Mem:0KB | Files:0 | IPC:0 | Mode:NORMAL
+[2026-04-26 02:51:09] [TICK 25s] Proc:0 | Mem:0KB | Files:0 | IPC:0 | Mode:NORMAL
+[2026-04-26 02:51:14] [TICK 30s] Proc:0 | Mem:0KB | Files:0 | IPC:0 | Mode:NORMAL
+[2026-04-26 02:51:14] 
+[2026-04-26 02:51:14] [SIM] Simulating normal system activity...
+[2026-04-26 02:51:18] [OK] Normal activity completed
+[2026-04-26 02:51:18] 
+[2026-04-26 02:51:23] [TICK 35s] Proc:0 | Mem:0KB | Files:15 | IPC:0 | Mode:NORMAL
+[2026-04-26 02:51:28] [TICK 40s] Proc:0 | Mem:0KB | Files:15 | IPC:0 | Mode:NORMAL
+[2026-04-26 02:51:33] [TICK 45s] Proc:0 | Mem:0KB | Files:15 | IPC:0 | Mode:NORMAL
+[2026-04-26 02:51:38] [TICK 50s] Proc:0 | Mem:0KB | Files:15 | IPC:0 | Mode:NORMAL
+[2026-04-26 02:51:43] [TICK 55s] Proc:0 | Mem:0KB | Files:15 | IPC:0 | Mode:NORMAL
+[2026-04-26 02:51:48] [TICK 60s] Proc:0 | Mem:0KB | Files:15 | IPC:0 | Mode:NORMAL
+[2026-04-26 02:51:48] 
+[2026-04-26 02:51:48] [SIM] Simulating normal system activity...
+[2026-04-26 02:51:52] [OK] Normal activity completed
+[2026-04-26 02:51:52] 
+[2026-04-26 02:51:52] 
+[2026-04-26 02:51:52] ****************************************
+[2026-04-26 02:51:52] [ALERT] DEMO: Switching to ATTACK mode!
+[2026-04-26 02:51:52] [ATTACK] Simulating Fork Bomb...
+[2026-04-26 02:51:52] ****************************************
+[2026-04-26 02:51:52] [OK] Fork Bomb simulation completed
+[2026-04-26 02:51:52] [INFO] Check dashboard for anomaly alerts!
+[2026-04-26 02:51:52] 
+[2026-04-26 02:51:57] [TICK 65s] Proc:30 | Mem:0KB | Files:30 | IPC:0 | Mode:ATTACK
+[2026-04-26 02:52:02] [TICK 70s] Proc:30 | Mem:0KB | Files:30 | IPC:0 | Mode:ATTACK
+[2026-04-26 02:52:07] [TICK 75s] Proc:30 | Mem:0KB | Files:30 | IPC:0 | Mode:ATTACK
+[2026-04-26 02:52:13] [TICK 80s] Proc:30 | Mem:0KB | Files:30 | IPC:0 | Mode:ATTACK
+[2026-04-26 02:52:18] [TICK 85s] Proc:30 | Mem:0KB | Files:30 | IPC:0 | Mode:ATTACK
+[2026-04-26 02:52:23] [TICK 90s] Proc:30 | Mem:0KB | Files:30 | IPC:0 | Mode:ATTACK
+[2026-04-26 02:52:23] 
+[2026-04-26 02:52:23] [SIM] Simulating normal system activity...
+[2026-04-26 02:52:26] [OK] Normal activity completed
+[2026-04-26 02:52:26] 
+[2026-04-26 02:52:26] 
+[2026-04-26 02:52:26] ****************************************
+[2026-04-26 02:52:26] [MODE] DEMO: Back to NORMAL mode
+[2026-04-26 02:52:26] ****************************************
+[2026-04-26 02:52:26] 
+[2026-04-26 02:52:31] [TICK 95s] Proc:30 | Mem:0KB | Files:45 | IPC:0 | Mode:NORMAL
+[2026-04-26 02:52:36] [TICK 100s] Proc:30 | Mem:0KB | Files:45 | IPC:0 | Mode:NORMAL
+[2026-04-26 02:52:41] [TICK 105s] Proc:30 | Mem:0KB | Files:45 | IPC:0 | Mode:NORMAL
+[2026-04-26 02:52:46] [TICK 110s] Proc:30 | Mem:0KB | Files:45 | IPC:0 | Mode:NORMAL
+[2026-04-26 02:52:51] [TICK 115s] Proc:30 | Mem:0KB | Files:45 | IPC:0 | Mode:NORMAL
+[2026-04-26 02:52:56] [TICK 120s] Proc:30 | Mem:0KB | Files:45 | IPC:0 | Mode:NORMAL
+[2026-04-26 02:52:56] 
+[2026-04-26 02:52:56] [SIM] Simulating normal system activity...
+[2026-04-26 02:53:00] [OK] Normal activity completed
+[2026-04-26 02:53:00] 
+[2026-04-26 02:53:05] [TICK 125s] Proc:30 | Mem:0KB | Files:60 | IPC:0 | Mode:NORMAL
+[2026-04-26 02:53:10] [TICK 130s] Proc:30 | Mem:0KB | Files:60 | IPC:0 | Mode:NORMAL
+[2026-04-26 02:53:15] [TICK 135s] Proc:30 | Mem:0KB | Files:60 | IPC:0 | Mode:NORMAL
+[2026-04-26 02:53:20] [TICK 140s] Proc:30 | Mem:0KB | Files:60 | IPC:0 | Mode:NORMAL
+[2026-04-26 02:53:25] [TICK 145s] Proc:30 | Mem:0KB | Files:60 | IPC:0 | Mode:NORMAL
+[2026-04-26 02:53:30] [TICK 150s] Proc:30 | Mem:0KB | Files:60 | IPC:0 | Mode:NORMAL
+[2026-04-26 02:53:30] 
+[2026-04-26 02:53:30] [SIM] Simulating normal system activity...
+[2026-04-26 02:53:34] [OK] Normal activity completed
+[2026-04-26 02:53:34] 
+[2026-04-26 02:53:39] [TICK 155s] Proc:30 | Mem:0KB | Files:75 | IPC:0 | Mode:NORMAL
+[2026-04-26 02:53:44] [TICK 160s] Proc:30 | Mem:0KB | Files:75 | IPC:0 | Mode:NORMAL
+[2026-04-26 02:53:49] [TICK 165s] Proc:30 | Mem:0KB | Files:75 | IPC:0 | Mode:NORMAL
+[2026-04-26 02:53:54] [TICK 170s] Proc:30 | Mem:0KB | Files:75 | IPC:0 | Mode:NORMAL
+[2026-04-26 02:53:59] [TICK 175s] Proc:30 | Mem:0KB | Files:75 | IPC:0 | Mode:NORMAL
+[2026-04-26 02:54:04] [TICK 180s] Proc:30 | Mem:0KB | Files:75 | IPC:0 | Mode:NORMAL
+[2026-04-26 02:54:04] 
+[2026-04-26 02:54:04] [SIM] Simulating normal system activity...
+[2026-04-26 02:54:08] [OK] Normal activity completed
+[2026-04-26 02:54:08] 
+[2026-04-26 02:54:13] [TICK 185s] Proc:30 | Mem:0KB | Files:90 | IPC:0 | Mode:NORMAL
+[2026-04-26 02:54:18] [TICK 190s] Proc:30 | Mem:0KB | Files:90 | IPC:0 | Mode:NORMAL
+[2026-04-26 02:54:23] [TICK 195s] Proc:30 | Mem:0KB | Files:90 | IPC:0 | Mode:NORMAL
+[2026-04-26 02:54:28] [TICK 200s] Proc:30 | Mem:0KB | Files:90 | IPC:0 | Mode:NORMAL
+[2026-04-26 02:54:33] [TICK 205s] Proc:30 | Mem:0KB | Files:90 | IPC:0 | Mode:NORMAL
+[2026-04-26 02:54:38] [TICK 210s] Proc:30 | Mem:0KB | Files:90 | IPC:0 | Mode:NORMAL
+[2026-04-26 02:54:38] 
+[2026-04-26 02:54:38] [SIM] Simulating normal system activity...
+[2026-04-26 02:54:41] [OK] Normal activity completed
+[2026-04-26 02:54:41] 
+[2026-04-26 02:54:46] [TICK 215s] Proc:30 | Mem:0KB | Files:105 | IPC:0 | Mode:NORMAL
+[2026-04-26 02:54:51] [TICK 220s] Proc:30 | Mem:0KB | Files:105 | IPC:0 | Mode:NORMAL
+[2026-04-26 02:54:57] [TICK 225s] Proc:30 | Mem:0KB | Files:105 | IPC:0 | Mode:NORMAL
+[2026-04-26 02:55:02] [TICK 230s] Proc:30 | Mem:0KB | Files:105 | IPC:0 | Mode:NORMAL
+[2026-04-26 02:55:07] [TICK 235s] Proc:30 | Mem:0KB | Files:105 | IPC:0 | Mode:NORMAL
+[2026-04-26 02:55:12] [TICK 240s] Proc:30 | Mem:0KB | Files:105 | IPC:0 | Mode:NORMAL
+[2026-04-26 02:55:12] 
+[2026-04-26 02:55:12] [SIM] Simulating normal system activity...
+[2026-04-26 02:55:15] [OK] Normal activity completed
+[2026-04-26 02:55:15] 
+[2026-04-26 02:55:20] [TICK 245s] Proc:30 | Mem:0KB | Files:120 | IPC:0 | Mode:NORMAL
+[2026-04-26 02:55:25] [TICK 250s] Proc:30 | Mem:0KB | Files:120 | IPC:0 | Mode:NORMAL
+[2026-04-26 02:55:30] [TICK 255s] Proc:30 | Mem:0KB | Files:120 | IPC:0 | Mode:NORMAL
+[2026-04-26 02:55:35] [TICK 260s] Proc:30 | Mem:0KB | Files:120 | IPC:0 | Mode:NORMAL
+[2026-04-26 02:55:40] [TICK 265s] Proc:30 | Mem:0KB | Files:120 | IPC:0 | Mode:NORMAL
+[2026-04-26 02:55:45] [TICK 270s] Proc:30 | Mem:0KB | Files:120 | IPC:0 | Mode:NORMAL
+[2026-04-26 02:55:45] 
+[2026-04-26 02:55:45] [SIM] Simulating normal system activity...
+[2026-04-26 02:55:49] [OK] Normal activity completed
+[2026-04-26 02:55:49] 
+[2026-04-26 02:55:54] [TICK 275s] Proc:30 | Mem:0KB | Files:135 | IPC:0 | Mode:NORMAL
+[2026-04-26 02:55:59] [TICK 280s] Proc:30 | Mem:0KB | Files:135 | IPC:0 | Mode:NORMAL
+[2026-04-26 02:56:04] [TICK 285s] Proc:30 | Mem:0KB | Files:135 | IPC:0 | Mode:NORMAL
+[2026-04-26 02:56:09] [TICK 290s] Proc:30 | Mem:0KB | Files:135 | IPC:0 | Mode:NORMAL
+[2026-04-26 02:56:14] [TICK 295s] Proc:30 | Mem:0KB | Files:135 | IPC:0 | Mode:NORMAL
+[2026-04-26 02:56:19] [TICK 300s] Proc:30 | Mem:0KB | Files:135 | IPC:0 | Mode:NORMAL
+[2026-04-26 02:56:19] 
+[2026-04-26 02:56:19] [SIM] Simulating normal system activity...
+[2026-04-26 02:56:23] [OK] Normal activity completed
+[2026-04-26 02:56:23] 
+[2026-04-26 02:56:28] [TICK 305s] Proc:30 | Mem:0KB | Files:150 | IPC:0 | Mode:NORMAL
+[2026-04-26 02:56:33] [TICK 310s] Proc:30 | Mem:0KB | Files:150 | IPC:0 | Mode:NORMAL
+[2026-04-26 02:56:38] [TICK 315s] Proc:30 | Mem:0KB | Files:150 | IPC:0 | Mode:NORMAL
+[2026-04-26 02:56:43] [TICK 320s] Proc:30 | Mem:0KB | Files:150 | IPC:0 | Mode:NORMAL
+[2026-04-26 02:56:48] [TICK 325s] Proc:30 | Mem:0KB | Files:150 | IPC:0 | Mode:NORMAL
+[2026-04-26 02:56:53] [TICK 330s] Proc:30 | Mem:0KB | Files:150 | IPC:0 | Mode:NORMAL
+[2026-04-26 02:56:53] 
+[2026-04-26 02:56:53] [SIM] Simulating normal system activity...
+[2026-04-26 02:56:57] [OK] Normal activity completed
+[2026-04-26 02:56:57] 
+[2026-04-26 02:57:02] [TICK 335s] Proc:30 | Mem:0KB | Files:165 | IPC:0 | Mode:NORMAL
+[2026-04-26 02:57:07] [TICK 340s] Proc:30 | Mem:0KB | Files:165 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:03:00] ========================================
+[2026-04-26 03:03:00]   EDR SYSTEM - BACKEND API SERVER
+[2026-04-26 03:03:00]   Real-Time Intrusion Detection
+[2026-04-26 03:03:00] ========================================
+[2026-04-26 03:03:00] 
+[2026-04-26 03:03:00] [INIT] Starting EDR System...
+[2026-04-26 03:03:00] [OK] Monitor initialized
+[2026-04-26 03:03:00] [OK] Attack simulator ready
+[2026-04-26 03:03:00] [INFO] Metrics file: ../frontend/public/api/metrics.json
+[2026-04-26 03:03:00] [INFO] Dashboard: http://localhost:3000
+[2026-04-26 03:03:00] [INFO] Log file: edr_backend.log
+[2026-04-26 03:03:00] 
+[2026-04-26 03:03:00] [MODE] Starting in NORMAL mode
+[2026-04-26 03:03:00] [RUN] Backend is RUNNING - Collecting metrics every second
+[2026-04-26 03:03:00] ========================================
+[2026-04-26 03:03:00] 
+[2026-04-26 03:03:00] [OK] First metrics export completed!
+[2026-04-26 03:03:00] [INFO] Dashboard should now display live data
+[2026-04-26 03:03:00] 
+[2026-04-26 03:03:00] [TICK 0s] Proc:0 | Mem:0KB | Files:0 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:03:05] [TICK 5s] Proc:0 | Mem:0KB | Files:0 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:03:10] [TICK 10s] Proc:0 | Mem:0KB | Files:0 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:03:16] [TICK 15s] Proc:0 | Mem:0KB | Files:0 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:03:21] [TICK 20s] Proc:0 | Mem:0KB | Files:0 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:03:26] [TICK 25s] Proc:0 | Mem:0KB | Files:0 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:03:31] [TICK 30s] Proc:0 | Mem:0KB | Files:0 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:03:31] 
+[2026-04-26 03:03:31] [SIM] Simulating normal system activity...
+[2026-04-26 03:03:34] [OK] Normal activity completed
+[2026-04-26 03:03:34] 
+[2026-04-26 03:03:39] [TICK 35s] Proc:0 | Mem:0KB | Files:15 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:03:44] [TICK 40s] Proc:0 | Mem:0KB | Files:15 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:03:49] [TICK 45s] Proc:0 | Mem:0KB | Files:15 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:03:54] [TICK 50s] Proc:0 | Mem:0KB | Files:15 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:03:59] [TICK 55s] Proc:0 | Mem:0KB | Files:15 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:04:04] [TICK 60s] Proc:0 | Mem:0KB | Files:15 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:04:04] 
+[2026-04-26 03:04:04] [SIM] Simulating normal system activity...
+[2026-04-26 03:04:08] [OK] Normal activity completed
+[2026-04-26 03:04:08] 
+[2026-04-26 03:04:08] 
+[2026-04-26 03:04:08] ****************************************
+[2026-04-26 03:04:08] [ALERT] DEMO: Switching to ATTACK mode!
+[2026-04-26 03:04:08] [ATTACK] Simulating Fork Bomb...
+[2026-04-26 03:04:08] ****************************************
+[2026-04-26 03:04:09] [OK] Fork Bomb simulation completed
+[2026-04-26 03:04:09] [INFO] Check dashboard for anomaly alerts!
+[2026-04-26 03:04:09] 
+[2026-04-26 03:04:14] [TICK 65s] Proc:30 | Mem:0KB | Files:30 | IPC:0 | Mode:ATTACK
+[2026-04-26 03:04:19] [TICK 70s] Proc:30 | Mem:0KB | Files:30 | IPC:0 | Mode:ATTACK
+[2026-04-26 03:04:24] [TICK 75s] Proc:30 | Mem:0KB | Files:30 | IPC:0 | Mode:ATTACK
+[2026-04-26 03:04:29] [TICK 80s] Proc:30 | Mem:0KB | Files:30 | IPC:0 | Mode:ATTACK
+[2026-04-26 03:04:34] [TICK 85s] Proc:30 | Mem:0KB | Files:30 | IPC:0 | Mode:ATTACK
+[2026-04-26 03:04:39] [TICK 90s] Proc:30 | Mem:0KB | Files:30 | IPC:0 | Mode:ATTACK
+[2026-04-26 03:04:39] 
+[2026-04-26 03:04:39] [SIM] Simulating normal system activity...
+[2026-04-26 03:04:42] [OK] Normal activity completed
+[2026-04-26 03:04:42] 
+[2026-04-26 03:04:42] 
+[2026-04-26 03:04:42] ****************************************
+[2026-04-26 03:04:42] [MODE] DEMO: Back to NORMAL mode
+[2026-04-26 03:04:42] ****************************************
+[2026-04-26 03:04:42] 
+[2026-04-26 03:04:47] [TICK 95s] Proc:30 | Mem:0KB | Files:45 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:04:52] [TICK 100s] Proc:30 | Mem:0KB | Files:45 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:04:57] [TICK 105s] Proc:30 | Mem:0KB | Files:45 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:05:03] [TICK 110s] Proc:30 | Mem:0KB | Files:45 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:05:08] [TICK 115s] Proc:30 | Mem:0KB | Files:45 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:05:13] [TICK 120s] Proc:30 | Mem:0KB | Files:45 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:05:13] 
+[2026-04-26 03:05:13] [SIM] Simulating normal system activity...
+[2026-04-26 03:05:16] [OK] Normal activity completed
+[2026-04-26 03:05:16] 
+[2026-04-26 03:05:21] [TICK 125s] Proc:30 | Mem:0KB | Files:60 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:05:26] [TICK 130s] Proc:30 | Mem:0KB | Files:60 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:05:31] [TICK 135s] Proc:30 | Mem:0KB | Files:60 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:05:36] [TICK 140s] Proc:30 | Mem:0KB | Files:60 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:05:41] [TICK 145s] Proc:30 | Mem:0KB | Files:60 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:05:46] [TICK 150s] Proc:30 | Mem:0KB | Files:60 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:05:46] 
+[2026-04-26 03:05:46] [SIM] Simulating normal system activity...
+[2026-04-26 03:05:50] [OK] Normal activity completed
+[2026-04-26 03:05:50] 
+[2026-04-26 03:05:55] [TICK 155s] Proc:30 | Mem:0KB | Files:75 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:06:00] [TICK 160s] Proc:30 | Mem:0KB | Files:75 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:06:05] [TICK 165s] Proc:30 | Mem:0KB | Files:75 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:06:10] [TICK 170s] Proc:30 | Mem:0KB | Files:75 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:06:15] [TICK 175s] Proc:30 | Mem:0KB | Files:75 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:06:20] [TICK 180s] Proc:30 | Mem:0KB | Files:75 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:06:20] 
+[2026-04-26 03:06:20] [SIM] Simulating normal system activity...
+[2026-04-26 03:06:24] [OK] Normal activity completed
+[2026-04-26 03:06:24] 
+[2026-04-26 03:06:29] [TICK 185s] Proc:30 | Mem:0KB | Files:90 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:06:34] [TICK 190s] Proc:30 | Mem:0KB | Files:90 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:06:39] [TICK 195s] Proc:30 | Mem:0KB | Files:90 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:06:44] [TICK 200s] Proc:30 | Mem:0KB | Files:90 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:06:49] [TICK 205s] Proc:30 | Mem:0KB | Files:90 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:06:54] [TICK 210s] Proc:30 | Mem:0KB | Files:90 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:06:54] 
+[2026-04-26 03:06:54] [SIM] Simulating normal system activity...
+[2026-04-26 03:06:58] [OK] Normal activity completed
+[2026-04-26 03:06:58] 
+[2026-04-26 03:07:03] [TICK 215s] Proc:30 | Mem:0KB | Files:105 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:07:08] [TICK 220s] Proc:30 | Mem:0KB | Files:105 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:07:13] [TICK 225s] Proc:30 | Mem:0KB | Files:105 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:07:18] [TICK 230s] Proc:30 | Mem:0KB | Files:105 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:07:23] [TICK 235s] Proc:30 | Mem:0KB | Files:105 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:07:28] [TICK 240s] Proc:30 | Mem:0KB | Files:105 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:07:28] 
+[2026-04-26 03:07:28] [SIM] Simulating normal system activity...
+[2026-04-26 03:07:32] [OK] Normal activity completed
+[2026-04-26 03:07:32] 
+[2026-04-26 03:07:37] [TICK 245s] Proc:30 | Mem:0KB | Files:120 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:07:42] [TICK 250s] Proc:30 | Mem:0KB | Files:120 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:07:47] [TICK 255s] Proc:30 | Mem:0KB | Files:120 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:07:52] [TICK 260s] Proc:30 | Mem:0KB | Files:120 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:07:57] [TICK 265s] Proc:30 | Mem:0KB | Files:120 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:08:02] [TICK 270s] Proc:30 | Mem:0KB | Files:120 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:08:02] 
+[2026-04-26 03:08:02] [SIM] Simulating normal system activity...
+[2026-04-26 03:08:05] [OK] Normal activity completed
+[2026-04-26 03:08:05] 
+[2026-04-26 03:08:11] [TICK 275s] Proc:30 | Mem:0KB | Files:135 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:08:16] [TICK 280s] Proc:30 | Mem:0KB | Files:135 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:08:21] [TICK 285s] Proc:30 | Mem:0KB | Files:135 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:08:26] [TICK 290s] Proc:30 | Mem:0KB | Files:135 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:08:31] [TICK 295s] Proc:30 | Mem:0KB | Files:135 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:08:36] [TICK 300s] Proc:30 | Mem:0KB | Files:135 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:08:36] 
+[2026-04-26 03:08:36] [SIM] Simulating normal system activity...
+[2026-04-26 03:08:39] [OK] Normal activity completed
+[2026-04-26 03:08:39] 
+[2026-04-26 03:08:44] [TICK 305s] Proc:30 | Mem:0KB | Files:150 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:08:49] [TICK 310s] Proc:30 | Mem:0KB | Files:150 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:08:54] [TICK 315s] Proc:30 | Mem:0KB | Files:150 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:09:00] [TICK 320s] Proc:30 | Mem:0KB | Files:150 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:09:05] [TICK 325s] Proc:30 | Mem:0KB | Files:150 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:09:10] [TICK 330s] Proc:30 | Mem:0KB | Files:150 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:09:10] 
+[2026-04-26 03:09:10] [SIM] Simulating normal system activity...
+[2026-04-26 03:09:13] [OK] Normal activity completed
+[2026-04-26 03:09:13] 
+[2026-04-26 03:09:18] [TICK 335s] Proc:30 | Mem:0KB | Files:165 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:09:23] [TICK 340s] Proc:30 | Mem:0KB | Files:165 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:09:28] [TICK 345s] Proc:30 | Mem:0KB | Files:165 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:09:33] [TICK 350s] Proc:30 | Mem:0KB | Files:165 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:09:38] [TICK 355s] Proc:30 | Mem:0KB | Files:165 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:09:43] [TICK 360s] Proc:30 | Mem:0KB | Files:165 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:09:43] 
+[2026-04-26 03:09:43] [SIM] Simulating normal system activity...
+[2026-04-26 03:09:47] [OK] Normal activity completed
+[2026-04-26 03:09:47] 
+[2026-04-26 03:09:52] [TICK 365s] Proc:30 | Mem:0KB | Files:180 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:09:57] [TICK 370s] Proc:30 | Mem:0KB | Files:180 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:10:02] [TICK 375s] Proc:30 | Mem:0KB | Files:180 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:10:07] [TICK 380s] Proc:30 | Mem:0KB | Files:180 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:10:12] [TICK 385s] Proc:30 | Mem:0KB | Files:180 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:10:17] [TICK 390s] Proc:30 | Mem:0KB | Files:180 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:10:17] 
+[2026-04-26 03:10:17] [SIM] Simulating normal system activity...
+[2026-04-26 03:10:21] [OK] Normal activity completed
+[2026-04-26 03:10:21] 
+[2026-04-26 03:10:26] [TICK 395s] Proc:30 | Mem:0KB | Files:195 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:10:31] [TICK 400s] Proc:30 | Mem:0KB | Files:195 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:10:36] [TICK 405s] Proc:30 | Mem:0KB | Files:195 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:10:41] [TICK 410s] Proc:30 | Mem:0KB | Files:195 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:10:46] [TICK 415s] Proc:30 | Mem:0KB | Files:195 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:10:51] [TICK 420s] Proc:30 | Mem:0KB | Files:195 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:10:51] 
+[2026-04-26 03:10:51] [SIM] Simulating normal system activity...
+[2026-04-26 03:10:55] [OK] Normal activity completed
+[2026-04-26 03:10:55] 
+[2026-04-26 03:11:00] [TICK 425s] Proc:30 | Mem:0KB | Files:210 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:11:05] [TICK 430s] Proc:30 | Mem:0KB | Files:210 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:11:10] [TICK 435s] Proc:30 | Mem:0KB | Files:210 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:11:15] [TICK 440s] Proc:30 | Mem:0KB | Files:210 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:11:20] [TICK 445s] Proc:30 | Mem:0KB | Files:210 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:11:25] [TICK 450s] Proc:30 | Mem:0KB | Files:210 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:11:25] 
+[2026-04-26 03:11:25] [SIM] Simulating normal system activity...
+[2026-04-26 03:11:29] [OK] Normal activity completed
+[2026-04-26 03:11:29] 
+[2026-04-26 03:11:34] [TICK 455s] Proc:30 | Mem:0KB | Files:225 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:11:39] [TICK 460s] Proc:30 | Mem:0KB | Files:225 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:11:44] [TICK 465s] Proc:30 | Mem:0KB | Files:225 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:11:49] [TICK 470s] Proc:30 | Mem:0KB | Files:225 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:11:54] [TICK 475s] Proc:30 | Mem:0KB | Files:225 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:11:59] [TICK 480s] Proc:30 | Mem:0KB | Files:225 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:11:59] 
+[2026-04-26 03:11:59] [SIM] Simulating normal system activity...
+[2026-04-26 03:12:02] [OK] Normal activity completed
+[2026-04-26 03:12:02] 
+[2026-04-26 03:12:08] [TICK 485s] Proc:30 | Mem:0KB | Files:240 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:12:13] [TICK 490s] Proc:30 | Mem:0KB | Files:240 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:12:18] [TICK 495s] Proc:30 | Mem:0KB | Files:240 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:12:23] [TICK 500s] Proc:30 | Mem:0KB | Files:240 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:12:28] [TICK 505s] Proc:30 | Mem:0KB | Files:240 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:12:33] [TICK 510s] Proc:30 | Mem:0KB | Files:240 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:12:33] 
+[2026-04-26 03:12:33] [SIM] Simulating normal system activity...
+[2026-04-26 03:12:36] [OK] Normal activity completed
+[2026-04-26 03:12:36] 
+[2026-04-26 03:12:41] [TICK 515s] Proc:30 | Mem:0KB | Files:255 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:12:46] [TICK 520s] Proc:30 | Mem:0KB | Files:255 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:12:52] [TICK 525s] Proc:30 | Mem:0KB | Files:255 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:12:57] [TICK 530s] Proc:30 | Mem:0KB | Files:255 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:13:02] [TICK 535s] Proc:30 | Mem:0KB | Files:255 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:13:07] [TICK 540s] Proc:30 | Mem:0KB | Files:255 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:13:07] 
+[2026-04-26 03:13:07] [SIM] Simulating normal system activity...
+[2026-04-26 03:13:10] [OK] Normal activity completed
+[2026-04-26 03:13:10] 
+[2026-04-26 03:13:15] [TICK 545s] Proc:30 | Mem:0KB | Files:270 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:13:20] [TICK 550s] Proc:30 | Mem:0KB | Files:270 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:13:25] [TICK 555s] Proc:30 | Mem:0KB | Files:270 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:13:31] [TICK 560s] Proc:30 | Mem:0KB | Files:270 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:13:36] [TICK 565s] Proc:30 | Mem:0KB | Files:270 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:13:41] [TICK 570s] Proc:30 | Mem:0KB | Files:270 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:13:41] 
+[2026-04-26 03:13:41] [SIM] Simulating normal system activity...
+[2026-04-26 03:13:44] [OK] Normal activity completed
+[2026-04-26 03:13:44] 
+[2026-04-26 03:13:49] [TICK 575s] Proc:30 | Mem:0KB | Files:285 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:13:54] [TICK 580s] Proc:30 | Mem:0KB | Files:285 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:13:59] [TICK 585s] Proc:30 | Mem:0KB | Files:285 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:14:04] [TICK 590s] Proc:30 | Mem:0KB | Files:285 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:14:10] [TICK 595s] Proc:30 | Mem:0KB | Files:285 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:14:15] [TICK 600s] Proc:30 | Mem:0KB | Files:285 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:14:15] 
+[2026-04-26 03:14:15] [SIM] Simulating normal system activity...
+[2026-04-26 03:14:18] [OK] Normal activity completed
+[2026-04-26 03:14:18] 
+[2026-04-26 03:14:23] [TICK 605s] Proc:30 | Mem:0KB | Files:300 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:14:28] [TICK 610s] Proc:30 | Mem:0KB | Files:300 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:14:33] [TICK 615s] Proc:30 | Mem:0KB | Files:300 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:14:38] [TICK 620s] Proc:30 | Mem:0KB | Files:300 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:14:43] [TICK 625s] Proc:30 | Mem:0KB | Files:300 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:14:49] [TICK 630s] Proc:30 | Mem:0KB | Files:300 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:14:49] 
+[2026-04-26 03:14:49] [SIM] Simulating normal system activity...
+[2026-04-26 03:14:52] [OK] Normal activity completed
+[2026-04-26 03:14:52] 
+[2026-04-26 03:14:57] [TICK 635s] Proc:30 | Mem:0KB | Files:315 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:15:02] [TICK 640s] Proc:30 | Mem:0KB | Files:315 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:15:07] [TICK 645s] Proc:30 | Mem:0KB | Files:315 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:15:12] [TICK 650s] Proc:30 | Mem:0KB | Files:315 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:15:17] [TICK 655s] Proc:30 | Mem:0KB | Files:315 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:15:22] [TICK 660s] Proc:30 | Mem:0KB | Files:315 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:15:22] 
+[2026-04-26 03:15:22] [SIM] Simulating normal system activity...
+[2026-04-26 03:15:26] [OK] Normal activity completed
+[2026-04-26 03:15:26] 
+[2026-04-26 03:15:31] [TICK 665s] Proc:30 | Mem:0KB | Files:330 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:15:36] [TICK 670s] Proc:30 | Mem:0KB | Files:330 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:15:41] [TICK 675s] Proc:30 | Mem:0KB | Files:330 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:15:46] [TICK 680s] Proc:30 | Mem:0KB | Files:330 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:15:51] [TICK 685s] Proc:30 | Mem:0KB | Files:330 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:15:56] [TICK 690s] Proc:30 | Mem:0KB | Files:330 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:15:56] 
+[2026-04-26 03:15:56] [SIM] Simulating normal system activity...
+[2026-04-26 03:16:00] [OK] Normal activity completed
+[2026-04-26 03:16:00] 
+[2026-04-26 03:16:05] [TICK 695s] Proc:30 | Mem:0KB | Files:345 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:16:10] [TICK 700s] Proc:30 | Mem:0KB | Files:345 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:16:15] [TICK 705s] Proc:30 | Mem:0KB | Files:345 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:16:20] [TICK 710s] Proc:30 | Mem:0KB | Files:345 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:16:25] [TICK 715s] Proc:30 | Mem:0KB | Files:345 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:16:30] [TICK 720s] Proc:30 | Mem:0KB | Files:345 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:16:30] 
+[2026-04-26 03:16:30] [SIM] Simulating normal system activity...
+[2026-04-26 03:16:34] [OK] Normal activity completed
+[2026-04-26 03:16:34] 
+[2026-04-26 03:16:39] [TICK 725s] Proc:30 | Mem:0KB | Files:360 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:16:44] [TICK 730s] Proc:30 | Mem:0KB | Files:360 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:16:49] [TICK 735s] Proc:30 | Mem:0KB | Files:360 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:16:54] [TICK 740s] Proc:30 | Mem:0KB | Files:360 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:16:59] [TICK 745s] Proc:30 | Mem:0KB | Files:360 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:17:04] [TICK 750s] Proc:30 | Mem:0KB | Files:360 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:17:04] 
+[2026-04-26 03:17:04] [SIM] Simulating normal system activity...
+[2026-04-26 03:17:08] [OK] Normal activity completed
+[2026-04-26 03:17:08] 
+[2026-04-26 03:17:13] [TICK 755s] Proc:30 | Mem:0KB | Files:375 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:17:18] [TICK 760s] Proc:30 | Mem:0KB | Files:375 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:17:23] [TICK 765s] Proc:30 | Mem:0KB | Files:375 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:17:28] [TICK 770s] Proc:30 | Mem:0KB | Files:375 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:17:33] [TICK 775s] Proc:30 | Mem:0KB | Files:375 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:17:38] [TICK 780s] Proc:30 | Mem:0KB | Files:375 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:17:38] 
+[2026-04-26 03:17:38] [SIM] Simulating normal system activity...
+[2026-04-26 03:17:42] [OK] Normal activity completed
+[2026-04-26 03:17:42] 
+[2026-04-26 03:17:47] [TICK 785s] Proc:30 | Mem:0KB | Files:390 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:17:52] [TICK 790s] Proc:30 | Mem:0KB | Files:390 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:17:57] [TICK 795s] Proc:30 | Mem:0KB | Files:390 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:18:02] [TICK 800s] Proc:30 | Mem:0KB | Files:390 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:18:07] [TICK 805s] Proc:30 | Mem:0KB | Files:390 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:18:12] [TICK 810s] Proc:30 | Mem:0KB | Files:390 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:18:12] 
+[2026-04-26 03:18:12] [SIM] Simulating normal system activity...
+[2026-04-26 03:18:16] [OK] Normal activity completed
+[2026-04-26 03:18:16] 
+[2026-04-26 03:18:21] [TICK 815s] Proc:30 | Mem:0KB | Files:405 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:18:26] [TICK 820s] Proc:30 | Mem:0KB | Files:405 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:18:31] [TICK 825s] Proc:30 | Mem:0KB | Files:405 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:18:36] [TICK 830s] Proc:30 | Mem:0KB | Files:405 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:18:41] [TICK 835s] Proc:30 | Mem:0KB | Files:405 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:18:46] [TICK 840s] Proc:30 | Mem:0KB | Files:405 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:18:46] 
+[2026-04-26 03:18:46] [SIM] Simulating normal system activity...
+[2026-04-26 03:18:49] [OK] Normal activity completed
+[2026-04-26 03:18:49] 
+[2026-04-26 03:18:55] [TICK 845s] Proc:30 | Mem:0KB | Files:420 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:19:00] [TICK 850s] Proc:30 | Mem:0KB | Files:420 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:19:05] [TICK 855s] Proc:30 | Mem:0KB | Files:420 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:19:10] [TICK 860s] Proc:30 | Mem:0KB | Files:420 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:19:15] [TICK 865s] Proc:30 | Mem:0KB | Files:420 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:19:20] [TICK 870s] Proc:30 | Mem:0KB | Files:420 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:19:20] 
+[2026-04-26 03:19:20] [SIM] Simulating normal system activity...
+[2026-04-26 03:19:23] [OK] Normal activity completed
+[2026-04-26 03:19:23] 
+[2026-04-26 03:19:28] [TICK 875s] Proc:30 | Mem:0KB | Files:435 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:19:34] [TICK 880s] Proc:30 | Mem:0KB | Files:435 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:19:39] [TICK 885s] Proc:30 | Mem:0KB | Files:435 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:19:44] [TICK 890s] Proc:30 | Mem:0KB | Files:435 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:19:49] [TICK 895s] Proc:30 | Mem:0KB | Files:435 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:19:54] [TICK 900s] Proc:30 | Mem:0KB | Files:435 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:19:54] 
+[2026-04-26 03:19:54] [SIM] Simulating normal system activity...
+[2026-04-26 03:19:57] [OK] Normal activity completed
+[2026-04-26 03:19:57] 
+[2026-04-26 03:20:02] [TICK 905s] Proc:30 | Mem:0KB | Files:450 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:20:07] [TICK 910s] Proc:30 | Mem:0KB | Files:450 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:20:12] [TICK 915s] Proc:30 | Mem:0KB | Files:450 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:20:18] [TICK 920s] Proc:30 | Mem:0KB | Files:450 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:20:23] [TICK 925s] Proc:30 | Mem:0KB | Files:450 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:20:28] [TICK 930s] Proc:30 | Mem:0KB | Files:450 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:20:28] 
+[2026-04-26 03:20:28] [SIM] Simulating normal system activity...
+[2026-04-26 03:20:31] [OK] Normal activity completed
+[2026-04-26 03:20:31] 
+[2026-04-26 03:20:36] [TICK 935s] Proc:30 | Mem:0KB | Files:465 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:20:41] [TICK 940s] Proc:30 | Mem:0KB | Files:465 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:20:46] [TICK 945s] Proc:30 | Mem:0KB | Files:465 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:20:51] [TICK 950s] Proc:30 | Mem:0KB | Files:465 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:20:56] [TICK 955s] Proc:30 | Mem:0KB | Files:465 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:21:02] [TICK 960s] Proc:30 | Mem:0KB | Files:465 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:21:02] 
+[2026-04-26 03:21:02] [SIM] Simulating normal system activity...
+[2026-04-26 03:21:05] [OK] Normal activity completed
+[2026-04-26 03:21:05] 
+[2026-04-26 03:21:10] [TICK 965s] Proc:30 | Mem:0KB | Files:480 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:21:15] [TICK 970s] Proc:30 | Mem:0KB | Files:480 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:21:20] [TICK 975s] Proc:30 | Mem:0KB | Files:480 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:21:25] [TICK 980s] Proc:30 | Mem:0KB | Files:480 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:21:30] [TICK 985s] Proc:30 | Mem:0KB | Files:480 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:21:35] [TICK 990s] Proc:30 | Mem:0KB | Files:480 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:21:35] 
+[2026-04-26 03:21:35] [SIM] Simulating normal system activity...
+[2026-04-26 03:21:39] [OK] Normal activity completed
+[2026-04-26 03:21:39] 
+[2026-04-26 03:21:44] [TICK 995s] Proc:30 | Mem:0KB | Files:495 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:21:49] [TICK 1000s] Proc:30 | Mem:0KB | Files:495 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:21:54] [TICK 1005s] Proc:30 | Mem:0KB | Files:495 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:21:59] [TICK 1010s] Proc:30 | Mem:0KB | Files:495 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:22:04] [TICK 1015s] Proc:30 | Mem:0KB | Files:495 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:22:09] [TICK 1020s] Proc:30 | Mem:0KB | Files:495 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:22:09] 
+[2026-04-26 03:22:09] [SIM] Simulating normal system activity...
+[2026-04-26 03:22:13] [OK] Normal activity completed
+[2026-04-26 03:22:13] 
+[2026-04-26 03:22:18] [TICK 1025s] Proc:30 | Mem:0KB | Files:510 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:22:23] [TICK 1030s] Proc:30 | Mem:0KB | Files:510 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:22:28] [TICK 1035s] Proc:30 | Mem:0KB | Files:510 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:22:33] [TICK 1040s] Proc:30 | Mem:0KB | Files:510 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:22:38] [TICK 1045s] Proc:30 | Mem:0KB | Files:510 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:22:43] [TICK 1050s] Proc:30 | Mem:0KB | Files:510 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:22:43] 
+[2026-04-26 03:22:43] [SIM] Simulating normal system activity...
+[2026-04-26 03:22:47] [OK] Normal activity completed
+[2026-04-26 03:22:47] 
+[2026-04-26 03:22:52] [TICK 1055s] Proc:30 | Mem:0KB | Files:525 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:22:57] [TICK 1060s] Proc:30 | Mem:0KB | Files:525 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:23:02] [TICK 1065s] Proc:30 | Mem:0KB | Files:525 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:23:07] [TICK 1070s] Proc:30 | Mem:0KB | Files:525 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:23:12] [TICK 1075s] Proc:30 | Mem:0KB | Files:525 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:23:17] [TICK 1080s] Proc:30 | Mem:0KB | Files:525 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:23:17] 
+[2026-04-26 03:23:17] [SIM] Simulating normal system activity...
+[2026-04-26 03:23:21] [OK] Normal activity completed
+[2026-04-26 03:23:21] 
+[2026-04-26 03:23:26] [TICK 1085s] Proc:30 | Mem:0KB | Files:540 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:23:31] [TICK 1090s] Proc:30 | Mem:0KB | Files:540 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:23:36] [TICK 1095s] Proc:30 | Mem:0KB | Files:540 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:23:41] [TICK 1100s] Proc:30 | Mem:0KB | Files:540 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:23:46] [TICK 1105s] Proc:30 | Mem:0KB | Files:540 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:23:51] [TICK 1110s] Proc:30 | Mem:0KB | Files:540 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:23:51] 
+[2026-04-26 03:23:51] [SIM] Simulating normal system activity...
+[2026-04-26 03:23:55] [OK] Normal activity completed
+[2026-04-26 03:23:55] 
+[2026-04-26 03:24:00] [TICK 1115s] Proc:30 | Mem:0KB | Files:555 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:24:05] [TICK 1120s] Proc:30 | Mem:0KB | Files:555 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:24:10] [TICK 1125s] Proc:30 | Mem:0KB | Files:555 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:24:15] [TICK 1130s] Proc:30 | Mem:0KB | Files:555 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:24:20] [TICK 1135s] Proc:30 | Mem:0KB | Files:555 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:24:25] [TICK 1140s] Proc:30 | Mem:0KB | Files:555 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:24:25] 
+[2026-04-26 03:24:25] [SIM] Simulating normal system activity...
+[2026-04-26 03:24:28] [OK] Normal activity completed
+[2026-04-26 03:24:28] 
+[2026-04-26 03:24:33] [TICK 1145s] Proc:30 | Mem:0KB | Files:570 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:24:39] [TICK 1150s] Proc:30 | Mem:0KB | Files:570 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:24:44] [TICK 1155s] Proc:30 | Mem:0KB | Files:570 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:24:49] [TICK 1160s] Proc:30 | Mem:0KB | Files:570 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:24:54] [TICK 1165s] Proc:30 | Mem:0KB | Files:570 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:24:59] [TICK 1170s] Proc:30 | Mem:0KB | Files:570 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:24:59] 
+[2026-04-26 03:24:59] [SIM] Simulating normal system activity...
+[2026-04-26 03:25:02] [OK] Normal activity completed
+[2026-04-26 03:25:02] 
+[2026-04-26 03:25:07] [TICK 1175s] Proc:30 | Mem:0KB | Files:585 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:25:12] [TICK 1180s] Proc:30 | Mem:0KB | Files:585 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:25:17] [TICK 1185s] Proc:30 | Mem:0KB | Files:585 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:25:22] [TICK 1190s] Proc:30 | Mem:0KB | Files:585 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:25:27] [TICK 1195s] Proc:30 | Mem:0KB | Files:585 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:25:33] [TICK 1200s] Proc:30 | Mem:0KB | Files:585 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:25:33] 
+[2026-04-26 03:25:33] [SIM] Simulating normal system activity...
+[2026-04-26 03:25:36] [OK] Normal activity completed
+[2026-04-26 03:25:36] 
+[2026-04-26 03:25:41] [TICK 1205s] Proc:30 | Mem:0KB | Files:600 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:25:46] [TICK 1210s] Proc:30 | Mem:0KB | Files:600 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:25:51] [TICK 1215s] Proc:30 | Mem:0KB | Files:600 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:25:56] [TICK 1220s] Proc:30 | Mem:0KB | Files:600 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:26:01] [TICK 1225s] Proc:30 | Mem:0KB | Files:600 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:26:06] [TICK 1230s] Proc:30 | Mem:0KB | Files:600 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:26:06] 
+[2026-04-26 03:26:06] [SIM] Simulating normal system activity...
+[2026-04-26 03:26:10] [OK] Normal activity completed
+[2026-04-26 03:26:10] 
+[2026-04-26 03:26:15] [TICK 1235s] Proc:30 | Mem:0KB | Files:615 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:26:20] [TICK 1240s] Proc:30 | Mem:0KB | Files:615 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:26:25] [TICK 1245s] Proc:30 | Mem:0KB | Files:615 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:26:30] [TICK 1250s] Proc:30 | Mem:0KB | Files:615 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:26:35] [TICK 1255s] Proc:30 | Mem:0KB | Files:615 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:26:40] [TICK 1260s] Proc:30 | Mem:0KB | Files:615 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:26:40] 
+[2026-04-26 03:26:40] [SIM] Simulating normal system activity...
+[2026-04-26 03:26:44] [OK] Normal activity completed
+[2026-04-26 03:26:44] 
+[2026-04-26 03:26:49] [TICK 1265s] Proc:30 | Mem:0KB | Files:630 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:26:54] [TICK 1270s] Proc:30 | Mem:0KB | Files:630 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:26:59] [TICK 1275s] Proc:30 | Mem:0KB | Files:630 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:27:04] [TICK 1280s] Proc:30 | Mem:0KB | Files:630 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:27:09] [TICK 1285s] Proc:30 | Mem:0KB | Files:630 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:27:14] [TICK 1290s] Proc:30 | Mem:0KB | Files:630 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:27:14] 
+[2026-04-26 03:27:14] [SIM] Simulating normal system activity...
+[2026-04-26 03:27:18] [OK] Normal activity completed
+[2026-04-26 03:27:18] 
+[2026-04-26 03:27:23] [TICK 1295s] Proc:30 | Mem:0KB | Files:645 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:27:28] [TICK 1300s] Proc:30 | Mem:0KB | Files:645 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:27:33] [TICK 1305s] Proc:30 | Mem:0KB | Files:645 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:27:38] [TICK 1310s] Proc:30 | Mem:0KB | Files:645 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:27:43] [TICK 1315s] Proc:30 | Mem:0KB | Files:645 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:27:48] [TICK 1320s] Proc:30 | Mem:0KB | Files:645 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:27:48] 
+[2026-04-26 03:27:48] [SIM] Simulating normal system activity...
+[2026-04-26 03:27:52] [OK] Normal activity completed
+[2026-04-26 03:27:52] 
+[2026-04-26 03:27:57] [TICK 1325s] Proc:30 | Mem:0KB | Files:660 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:28:02] [TICK 1330s] Proc:30 | Mem:0KB | Files:660 | IPC:0 | Mode:NORMAL
+[2026-04-26 03:28:07] [TICK 1335s] Proc:30 | Mem:0KB | Files:660 | IPC:0 | Mode:NORMAL
