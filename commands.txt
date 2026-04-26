@@ -1,0 +1,7 @@
+#cd backend
+powershell -ExecutionPolicy Bypass -File build_simple.ps1
+.\build\edr_backend.exe
+
+#cd frontend
+npm install
+npm run dev
